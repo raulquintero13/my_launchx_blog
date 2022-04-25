@@ -68,24 +68,38 @@ Para inicializar un Proyecto con git, crearemos una carpeta y nos cambiaremos a 
 cd project1</p>
 </blockquote>
 <p>ahora ejecutaremos el commando init</p>
+<blockquote>
 <p>project1&gt; git init</p>
+</blockquote>
 <p>esto creara una carpeta oculta llamada &ldquo;.git&rdquo;
 esta la podremos ver con el comando ls</p>
+<blockquote>
 <p>project1&gt; ls –la</p>
+</blockquote>
 <p>ahora ya podemos crear nuestro archivos y carpetas de nuestro Proyecto</p>
+<blockquote>
 <p>project1&gt; touch file.txt</p>
+</blockquote>
 <p>ya que hayamos trabajdo en nuestro Proyecto,  podremos hacer commits las veces que sea necesario
 para ir haciendo un histrial de nuestros cambios</p>
 <p>con status podremos ver los cambios que hemos hecho y si no estan versionados en nuestro historial de git</p>
+<blockquote>
 <p>project1&gt; git status</p>
+</blockquote>
 <p>ahora tenemos  que agregar todos los archivos que han sido modificados con el commando add</p>
+<blockquote>
 <p>project1&gt; git add .</p>
+</blockquote>
 <p>en este caso usaremos el “.” Para agregar automaticamente todos los archivos modificados, tambien se puede especificar un archivo en caso de que haya mas de uno,
 y asi se requiera, una vez hecho esto, ahora le pondremos un comentario a esta version con el comando commit</p>
+<blockquote>
 <p>project1&gt; git commit –m “primer commit”</p>
+</blockquote>
 <p>y esta seria la primera version de nuestro Proyecto, para poder ver un hstorial de todas las versiones de nuestro Proyecto,
 utilizaremos el commando log con el parametro “—oneline”, para que nos muestre cada version en una linea</p>
+<blockquote>
 <p>project1&gt; git log &ndash;oneline</p>
+</blockquote>
 
     </div>
   </div>
