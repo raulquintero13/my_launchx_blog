@@ -11,6 +11,7 @@ Basicamente son 4 comandos en los que nos enfocaremos en este post: init, add, c
 Para inicializar un Proyecto con git, crearemos una carpeta y nos cambiaremos a ella
 
 > mkdir project1
+
 > cd project1
 
 
