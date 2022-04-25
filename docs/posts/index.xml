@@ -8,6 +8,19 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://raulquintero13.github.io/my_launchx_blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>el 1,2,3 de git</title>
+      <link>https://raulquintero13.github.io/my_launchx_blog/posts/post_2/</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://raulquintero13.github.io/my_launchx_blog/posts/post_2/</guid>
+      <description>En este caso veremos conoceremos los commandos basicos para empezar a usar git desde la consola, todos los comandos seran para la terminal de linux.
+Basicamente son 4 comandos en los que nos enfocaremos en este post: init, add, commit y log Para inicializar un Proyecto con git, crearemos una carpeta y nos cambiaremos a ella
+ mkdir project1 cd project1
+ ahora ejecutaremos el commando init
+project1&amp;gt; git init</description>
+    </item>
+    
+    <item>
       <title>Mi ruta de aprendizaje en Launch X</title>
       <link>https://raulquintero13.github.io/my_launchx_blog/posts/post_1/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
