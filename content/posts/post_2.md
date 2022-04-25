@@ -10,7 +10,6 @@ todos los comandos seran para la terminal de linux.
 Basicamente son 4 comandos en los que nos enfocaremos en este post: init, add, commit y log
 Para inicializar un Proyecto con git, crearemos una carpeta y nos cambiaremos a ella
 
-
 > mkdir project1
 > cd project1
 
@@ -21,7 +20,7 @@ ahora ejecutaremos el commando init
 project1> git init
 
 
-esto creara una carpeta oculta llamada    .git
+esto creara una carpeta oculta llamada ".git"
 esta la podremos ver con el comando ls
 
 project1> ls –la
